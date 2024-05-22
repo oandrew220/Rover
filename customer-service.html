@@ -40,7 +40,8 @@
                 <input type="text" id="user-input" placeholder="Type your message here..." />
                 <button onclick="sendMessage()">Send</button>
             </div>
-            <form id="email-form">
+            <form id="email-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="47b4cfaf-3bc3-48f6-ad4c-3fb6a91ed44f">
                 <h3>Contact Us via Email</h3>
                 <div class="form-group">
                     <label for="email">Your Email</label>
