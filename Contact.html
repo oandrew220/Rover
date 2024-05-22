@@ -52,7 +52,8 @@
             </div>
             <div class="contact-form">
                 <h3>Contact Form</h3>
-                <form id="contact-form">
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="47b4cfaf-3bc3-48f6-ad4c-3fb6a91ed44f">
                     <div class="form-group">
                         <label for="name">Your Name</label>
                         <input type="text" id="name" name="name" placeholder="Enter your name" required>
